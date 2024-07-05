@@ -1,0 +1,6 @@
+fname = input("Enter your first name: ")
+mname = input("Enter your middle name: ")
+lname = input("Enter your last name: ")
+print(fname,mname,lname)
+print("%s %s %s"%(fname,mname,lname))
+print("{0} {1} {2}".format(fname,mname,lname))
